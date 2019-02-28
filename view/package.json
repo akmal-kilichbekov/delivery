@@ -1,0 +1,11 @@
+{
+    "app": {
+        "id": "rroot",
+        "type": "application",
+        "title": "Delivery Application",
+        "description": "Delivery Application start",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    }
+}
