@@ -1,11 +1,23 @@
 {
-    "app": {
-        "id": "rroot",
-        "type": "application",
-        "title": "Delivery Application",
-        "description": "Delivery Application start",
-        "applicationVersion": {
-            "version": "1.0.0"
-        }
-    }
+  "name": "Delivery",
+  "version": "1.0.0",
+  "description": "Project with delivery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akmal-kilichbekov/delivery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akmal-kilichbekov/delivery/issues"
+  },
+  "homepage": "https://github.com/akmal-kilichbekov/delivery#readme",
+  "dependencies": {
+    "mysql": "github:mysqljs/mysql"
+  }
 }
