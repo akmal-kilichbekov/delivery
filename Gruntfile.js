@@ -2,12 +2,12 @@ module.exports = (grunt) => {
     grunt.initConfig({
       execute: {
         target: {
-          src: ['connection.js']
+          src: ['connection_DB.js']
         }
       },
       watch: {
         scripts: {
-          files: ['connection.js'],
+          files: ['connection_DB.js'],
           tasks: ['execute'],
         },
       }
